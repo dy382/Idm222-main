@@ -1,0 +1,76 @@
+/*defining fonts*/
+@font-face {
+    font-family: 'nunito-regular';
+    src: url('fonts/') format('opentype');
+}
+
+html {
+    /* Colors */
+    --background-color: #FFF4DE;
+    --design-color: #A55F5F;
+    --text-color: #897342;
+    --highlight-color: #ECDFBC;
+
+    /* Fonts */
+    --font-aver: "aver";
+    --font-OverpassMono:"OverpassMono";
+
+    /* Miscellaneous */
+    --rhythm: 2rem;
+    font-size: 100%;
+}
+
+
+h1 {
+    font-family: 'Aver', Georgia, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-family: 'Overpass Mono', Georgia, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-family: 'Cabin Sketch', Georgia, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0;
+  }
+  
+  a {
+    font-family: 'Cabin Sketch', Georgia, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  
+  h4 {
+      font-family: 'Overpass Mono', Georgia, sans-serif;
+      font-weight: 300;
+    }
+  
+  p {
+      font-family: 'Overpass Mono', Georgia, sans-serif;
+      font-weight: 400;
+  
+    }
+
+@media screen and (max-width: 760px)
+.intro {
+    
+}
+
+.intro .banner {
+
+}
+
+.summary {
+    
+}
+
+
+
+
+
