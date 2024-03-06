@@ -1,101 +1,130 @@
 /*sourcing fonts*/
 @font-face {
-    font-family: 'nunito_regular';
+    font-family: 'raleway_regular';
     src: url('fonts/nunito_regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'nunito_italicized';
+  }
+  
+  @font-face {
+  font-family: 'raleway_italic';
   src: url('fonts/nunito_italicized.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'averia-serif-libre_regular';
-  src: url('fonts/averia-serif-libre_regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'averia-serif-libre_bold';
-  src: url('fonts/averia-serif-libre_bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'averia-serif-libre_light';
-  src: url('fonts/averia-serif-libre_light.ttf') format('truetype');
-}
-
-html {
+  }
+  
+  html {
     /* Colors */
-    --background-color: #FFF4DE;
-    --design-color: #A55F5F;
-    --text-color: #897342;
-    --highlight-color: #ECDFBC;
-
+    --background-color: #d3ddd3;
+    --design-color: #3F5D5A;
+    --text-color: #182322;
+    --highlight-color: #c3d0df;
+  
     /* Fonts */
     --font-aver: "aver";
     --font-OverpassMono:"OverpassMono";
-
+  
     /* Miscellaneous */
     --rhythm: 2rem;
     font-size: 100%;
-}
-
-
-h1 {
-    font-family: 'Aver', Georgia, sans-serif;
-    font-weight: 700;
-    font-size: 110px;
+  
+    background-color: var(--background-color);
+    color: var(--text-color);
   }
   
-h2 {
-  font-family: 'Overpass Mono', Georgia, sans-serif;
+  
+  
+  h1 {
+    font-family: 'averia-serif-libre_bold', Georgia, sans-serif;
+    font-size: 90px;
+  }
+  
+  h2 {
+  font-family: 'averia-serif-libre_regular', Georgia, sans-serif;
   font-size: 40px;
-  font-weight: 600;
-}
+  }
   
   h3 {
-    font-family: 'Cabin Sketch', Georgia, sans-serif;
-    font-weight: 400;
+    font-family: 'averia-serif-libre_light', Georgia, sans-serif;
     font-size: 36px;
-    margin: 0;
   }
   
   a {
-    font-family: 'Cabin Sketch', Georgia, sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
+    font-family: 'nunito_regular', Arial, Helvetica, sans-serif;
+    font-size: 20px;
   }
   
   h4 {
-      font-family: 'Overpass Mono', Georgia, sans-serif;
-      font-weight: 300;
+      font-family: 'nunito_regular', Georgia, sans-serif;
     }
   
   p {
-      font-family: 'Overpass Mono', Georgia, sans-serif;
-      font-weight: 400;
+      font-family: 'nunito_regular', Georgia, sans-serif;
       font-size: 20px;
+  }
   
+  header {
+    text-align: right;
+        margin-right: 2vw;
+      }
+      
+      #zen-supporting {
+        margin-right:30vw;
+      }
+  
+  @media screen and (max-width: 834px){
+    
+    h1 {
+      font-family: 'averia-serif-libre_bold', Georgia, sans-serif;
+      font-size: 90px;
     }
-
-#zen-intro {
-  font-size: 20px;
-}
-
-#zen-summary {
+    
+    h2 {
+    font-family: 'averia-serif-libre_regular', Georgia, sans-serif;
+    font-size: 40px;
+    }
+    
+    h3 {
+      font-family: 'averia-serif-libre_light', Georgia, sans-serif;
+      font-size: 36px;
+    }
+    
+    a {
+      font-family: 'nunito_regular', Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    
+    h4 {
+        font-family: 'nunito_regular', Georgia, sans-serif;
+      }
+    
+    p {
+        font-family: 'nunito_regular', Georgia, sans-serif;
+        font-size: 20px;
+    
+      } }
   
-}
-
-#zen-preamble {
-
-}
-
-#zen-explanation {
-
-}
-
-#zen-supporting {
-  margin-left: 300px;
-  margin-right: 75px;
   
-}
+  .banner {
+    display: flex;
+    position: absolute;
+    right: 100px;
+  }
+  
+  .b {
+    display: flex;
+    position: absolute;
+    right: 100px;
+  }
+  
+  .preamble {
+    display: flex;
+  }
+  
+  
+  @media screen and (max-width: 428px){
+    #zen-supporting {
+      text-align: center;
+    }
+  }
+  
+  .navigation li {
+    display: flex;
+    
+  }
