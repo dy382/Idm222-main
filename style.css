@@ -1,12 +1,12 @@
 /*sourcing fonts*/
 @font-face {
     font-family: 'raleway_regular';
-    src: url('fonts/raleway-regular.ttf') format('truetype');
+    src: url('raleway-regular.ttf') format('truetype');
   }
   
   @font-face {
   font-family: 'raleway_italic';
-  src: url('fonts/raleway_italic.ttf') format('truetype');
+  src: url('/raleway_italic.ttf') format('truetype');
   }
   
   html {
