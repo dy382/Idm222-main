@@ -14,11 +14,8 @@
     --background-color: #d3ddd3;
     --design-color: #3F5D5A;
     --text-color: #182322;
+    --link-color:#3f5d5a;
     --highlight-color: #c3d0df;
-  
-    /* Fonts */
-    --font-aver: "aver";
-    --font-OverpassMono:"OverpassMono";
   
     /* Miscellaneous */
     --rhythm: 2rem;
@@ -55,6 +52,7 @@
   a {
     font-family: 'raleway_regular', Arial, Helvetica, sans-serif;
     font-size: 20px;
+    color: var(--link-color);
   }
   
   p {
@@ -68,9 +66,10 @@
   }
       
   #zen-supporting {
-    margin-right:30vw;
+    margin-left:20vw;
+    margin-right: 5vw;
   }
-  
+  /* 
   @media screen and (max-width: 834px){
     
     html {
@@ -105,7 +104,7 @@
         font-family: 'nunito_regular', Georgia, sans-serif;
         font-size: 20px;
     
-      } }
+      } } */
   
   .banner {
     display: flex;
@@ -115,22 +114,21 @@
   
   .summary {
     display: flex;
-    position: absolute;
+    position: relative;
+    top: 50px;
     right: 100px;
   }
   
   #preamble {
     display: flex;
-  }
-  
-  
-  @media screen and (max-width: 428px){
-    #zen-supporting {
-      
-    }
+    flex-direction: column;
   }
   
   .navigation li {
     display: flex;
     
+  }
+  
+  .design-selection li {
+    color: #182322;
   }
